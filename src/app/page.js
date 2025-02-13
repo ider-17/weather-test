@@ -8,14 +8,14 @@ export default function Home() {
         <div className="absolute w-[340px] h-[340px] border border-gray-200 rounded-full opacity-30 " ></div>
         <div className="absolute w-[140px] h-[140px] border border-gray-200 rounded-full opacity-30 " ></div>
       </div>
-      <img className="absolute top-[3%] left-[3%] " src="/Group 2.svg"></img>
-      <img className="absolute bottom-[10%] right-[3%] " src="/Ellipse 22.svg"></img>
+      <img className="absolute top-[3%] left-[3%] " src="/bg-sun.svg"></img>
+      <img className="absolute bottom-[10%] right-[3%] " src="/background-moon.svg"></img>
       <div className="flex justify-center absolute w-[200px] h-[200px] ">
         <div className=" w-[140px] self-center z-[1] h-[140px] items-center flex justify-center rounded-full bg-gray-100">
-          <img className="w-[50px] h-[80px]" src="/Group 4.svg"></img>
-          <img className="rotate-180 w-[50px] h-[80px]" src="/Group 4.svg"></img>
+          <img className="w-[50px] h-[80px]" src="/pinecone-logo-half.svg"></img>
+          <img className="rotate-180 w-[50px] h-[80px]" src="/pinecone-logo-half.svg"></img>
         </div>
-        <div className="absolute top-[156.5px] left-[100px] rounded-tl-[50%] w-[100px] h-[100px] bg-black z-[2]"></div>
+        <div className="absolute top-[159px] left-[100px] rounded-tl-[50%] w-[100px] h-[100px] bg-black z-[2]"></div>
         <div className="absolute w-[50px] h-[60px] top-[150px] left-[80px] bg-gray-100 z-[1] "></div>
         <div className="absolute top-[-59px] left-[100px] rounded-tl-[50%] w-[100px] h-[100px] bg-black rotate-[-90deg] z-[2]"></div>
         <div className="absolute w-[50px] h-[60px] top-[-10px] left-[80px] bg-gray-100 z-[1] "></div>
@@ -26,13 +26,13 @@ export default function Home() {
           <p className="absolute text-gray-500">February 10, 2025</p>
           <img className="absolute top-12 right-8" src="/localization_icon.svg"></img>
           <h1 className="absolute top-14 text-5xl font-bold ">Ulaanbaatar</h1>
-          <img className="absolute top-48 left-14" src="/icon.svg"></img>
+          <img className="absolute top-48 left-14" src="/sun.svg"></img>
           <h1 className="absolute bottom-40 text-[110px] font-extrabold bg-gradient-to-b from-[#111827] to-[#cacdd1] text-transparent ... bg-clip-text">-12°</h1>
           <p className="absolute bottom-36 text-blue-800 font-semibold">Freezing fog</p>
           <div className="flex justify-between h-full w-full ">
             <img className="w-10 mt-[650px] " src="/Home.svg"></img>
             <img className="w-10 mt-[650px] " src="/User.svg"></img>
-            <img className="w-10 mt-[650px] " src="/Heart.svg"></img>
+            <img className="w-10 mt-[650px] " src="/button-heart.svg"></img>
             <img className="w-10 mt-[650px] " src="/Pin.svg"></img>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function Home() {
           <p className="absolute text-gray-500">February 10, 2025</p>
           <img className="absolute top-12 right-8" src="/localization_icon.svg"></img>
           <h1 className="absolute top-14 text-5xl font-bold text-white">Ulaanbaatar</h1>
-          <img className="absolute top-48 left-14" src="/icon (1).svg"></img>
+          <img className="absolute top-48 left-14" src="/moon.svg"></img>
           <h1 className="absolute bottom-40 text-[110px] font-extrabold bg-gradient-to-b from-[#eee1e1] to-[#2f3030] text-transparent ... bg-clip-text">-25.9°</h1>
           <p className="absolute bottom-36 text-yellow-600 font-semibold">Freezing fog</p>
           <div className="flex justify-between h-full w-full ">
