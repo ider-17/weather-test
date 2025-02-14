@@ -1,4 +1,31 @@
+'use client'
+
+import { useEffect, useState } from "react";
+
 export default function Home() {
+
+    const [countries, setCountries] = useState([]);
+    const [isLoading, setIsLoading] = useState(false);
+
+    useEffect(() => {
+
+        const getCountries = async () => {
+
+            setIsLoading(true)
+
+            const response = await fetch('https://countriesnow.space/api/v0.1/countries');
+
+            const countries = await response.json();
+
+            setCountries(countries.data)
+            setIsLoading(false)
+        }
+
+        getCountries();
+
+        console.log('render in useEffect')
+    }, [])
+
     return (
         <div className="box-border flex flex-col sm:flex-row sm:justify-center sm:items-center">
             <div className="absolute self-center z-[2] bottom-[-50px] bg-gray-100 rounded-full w-[100px] h-[100px] flex justify-center items-center gap-[5px] sm:hidden ">
