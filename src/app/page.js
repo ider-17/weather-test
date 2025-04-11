@@ -70,7 +70,7 @@ export default function Home() {
           <input onChange={() => setValue(event.target.value)} placeholder="Search" className="bg-white m-[10px] p-[16px] pl-10 rounded-full placeholder:font-semibold w-[460px] placeholder:text-2xl items-center text-black" />
           <div className="absolute z-10 w-[400px] ml-4 h-fit">{filteredData.map((data, index) => {
             return (
-              <div key={data.id} className="bg-gray-100 text-black p-2 border rounded-lg cursor-pointer" onClick={() => handleCity(index)}>{data}</div>
+              <div key={index} className="bg-gray-100 text-black p-2 border rounded-lg cursor-pointer" onClick={() => handleCity(index)}>{data}</div>
             )
           })}
           </div>
